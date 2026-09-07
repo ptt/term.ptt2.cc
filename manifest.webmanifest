@@ -1,0 +1,32 @@
+{
+  "name": "批踢踢兔",
+  "short_name": "PTT2",
+  "description": "批踢踢兔(PTT2)是批踢踢實業坊(ptt.cc)的電子佈告欄服務站之一，主要提供個人看板與團體社團看板，為使用者打造專屬的發表與交流空間。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
